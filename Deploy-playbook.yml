@@ -5,5 +5,4 @@
   tasks:
     - name: Pull Project Image from Docker Hub
       docker_image:
-        name: docker.io/yasha145/dockerproject_1
-        source: pull
+        shell: docker pull yasha145/dockerproject_1:latest
