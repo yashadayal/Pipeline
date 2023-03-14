@@ -1,8 +1,9 @@
 ---
-- name: Pull Docker Image
+- name: Deploy Docker Image
   hosts: all
   tasks:
     - name: Pull Project Image from Docker Hub
       docker_image:
         name: yasha145/dockerproject_1
+        tag: latest
         source: pull
