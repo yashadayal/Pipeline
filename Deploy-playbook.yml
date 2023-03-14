@@ -10,6 +10,6 @@
     - name: Pull Project Image from Docker Hub
       shell: docker pull yasha145/dockerproject_1:latest 
       
-     - name: Run Container
+    - name: Run Container
       shell: docker run -it -d yasha145/dockerproject_1:latest /bin/bash
       
