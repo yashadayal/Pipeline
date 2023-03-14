@@ -1,0 +1,8 @@
+---
+- name: Pull Docker Image
+  hosts: all
+  tasks:
+    - name: Pull Project Image from Docker Hub
+      docker_image:
+        name: yasha145/dockerproject_1:latest
+        source: pull
