@@ -8,7 +8,7 @@
         state: started
         
     - name: pull docker image
-      shell: docker pull yasha145/dockerproject_1:latest
+      shell: docker pull docker.io/yasha145/dockerproject_1:latest
 
     - name: running container
       shell: docker run -it -d yasha145/dockerproject_1:latest /bin/bash
